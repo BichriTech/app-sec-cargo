@@ -15,14 +15,6 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
     show-sql: true
-#  ai:
-#    openai:
-#      api-key: ${OPENAI_API_KEY}
-#      base-url: https://api.openai.com
-#      chat:
-#        options:
-#          model: gpt-4o
-#          temperature: 0
 
 management:
   endpoint:

@@ -1,0 +1,24 @@
+server:
+  port: 2805
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/package-serv-db
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:1654/eureka/
