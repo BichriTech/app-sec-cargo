@@ -6,6 +6,23 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/package-serv-db
 
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: papamoussandong@gmail.com
+    password: kdfdvjmqhbdhzeyi
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+twilio:
+  account_sid: REMOVED
+  auth_token: 02f18f596fffb1d08f78e4fa33921b13
+  phone_number: +18445990410
 
 management:
   endpoint:
