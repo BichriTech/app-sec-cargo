@@ -20,8 +20,8 @@ spring:
             required: true
 
 twilio:
-  account_sid: REMOVED
-  auth_token: 02f18f596fffb1d08f78e4fa33921b13
+  account_sid: ${TWILIO_ACCOUNT_SID}
+  auth_token: ${TWILIO_AUTH_TOKEN}
   phone_number: +18445990410
 
 management:
